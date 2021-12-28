@@ -3,6 +3,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        releasee {
+            storeFile file('C:\\Users\\rabia.dagdemir\\Desktop\\RBA_Projects\\saveanddeletedatawithsqlite.jks')
+            storePassword 'RabiaRabia18*'
+            keyPassword 'RabiaRabia18*'
+            keyAlias 'key0'
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
